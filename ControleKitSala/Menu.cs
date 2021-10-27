@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,7 +30,7 @@ namespace ControleKitSala
 
         private void pesquisaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TelaFuncionarioPesquisaCodigo pesquisafuncionario = new TelaFuncionarioPesquisaCodigo();
+           TelaFuncionarioPesquisaCodigo pesquisafuncionario = new TelaFuncionarioPesquisaCodigo();
             pesquisafuncionario.Show();
         }
 
@@ -50,24 +50,6 @@ namespace ControleKitSala
         {
             TelaPesquisaKitSala pesquisaKitSala = new TelaPesquisaKitSala();
             pesquisaKitSala.Show();
-
-        }
-
-        private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // Menu
-            // 
-            this.ClientSize = new System.Drawing.Size(278, 244);
-            this.Name = "Menu";
-            this.Load += new System.EventHandler(this.Menu_Load);
-            this.ResumeLayout(false);
-
-        }
-
-        private void Menu_Load(object sender, EventArgs e)
-        {
 
         }
     }
